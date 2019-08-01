@@ -25,6 +25,7 @@ jenkins:
   Servers:
     Global:
       EnvVars:
+        DOCKER_REGISTRY: 407271486871.dkr.ecr.us-east-1.amazonaws.com
         TILLER_NAMESPACE: kube-system
   enabled: false
 prow: {}
