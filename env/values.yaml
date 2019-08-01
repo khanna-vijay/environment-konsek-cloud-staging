@@ -18,7 +18,7 @@ expose:
   - --v
   - 4
   config:
-    domain: konsek.cloud
+    domain: poc-demo.work
     exposer: Ingress
     http: "true"
 jenkins:
